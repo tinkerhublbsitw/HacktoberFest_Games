@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #b3cde0;
+      }
+
+      h1 {
+        font-size: 48px;
+        color: #333;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      h2 {
+        margin: 20px 0;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+      }
+
+      #result {
+        font-size: 48px;
+      }
+
+      .choice-button {
+        margin: 20px;
+        padding: 20px 40px;
+        background-color: #333;
+        color: #fff;
+        font-size: 24px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .choice-button:hover {
+        background-color: #666;
+        transform: translateY(-5px);
+      }
+
+      .score {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .score h2 {
+        margin-right: 50px;
+      }
+
+      .score span {
+        font-size: 48px;
+        color: #fff;
+      }
+
+      .score span + span {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <h2>COMPUTER CHOICE: <span id="computer-choice"></span></h2>
+    <h2>USER CHOICE: <span id="user-choice"></span></h2>
+    <h2>RESULT: <span id="result"></span></h2>
+
+    <div class="choices">
+      <button class="choice-button" id="Rock">Rock</button>
+      <button class="choice-button" id="Scissors">Scissors</button>
+      <button class="choice-button" id="Paper">Paper</button>
+    </div>
+
+    <div class="score">
+      <h2>Computer Score:</h2>
+      <span id="computer-score">0</span>
+      <span>|</span>
+      
+      <h2>User Score:</h2>
+      <span id="user-score">0</span>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
