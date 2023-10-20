@@ -1,0 +1,343 @@
+body div {
+    font-family: 'MS Reference Sans Serif';
+    color: black;
+
+}
+
+#win {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color:rgb(214,142,113);
+
+}
+.windo {
+    width: 40vw; 
+    height: 60vh;
+    background: #f1fffa;
+    border: 2px solid #020000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 35%;
+    left: 58%;
+    transform: translate(-46%, -49%);
+  }
+  .windoww {
+    width: 40vw; 
+    height: 60vh;
+    background:#f1fffa;
+    border: 2px solid #020000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 39%;
+    left: 56%;
+    transform: translate(-48%, -48%);
+  }
+  .windd {
+    width: 40vw;
+    height: 60vh;
+    background: #f1fffa;
+    border: 2px solid #020000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+  .windd1 {
+    width: 40vw;
+    height: 60vh;
+    background: #f1fffa;
+    border: 2px solid #020000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -52%);
+  }
+  .tabb {
+    background: #dfca58;
+    color: #110c01;
+    padding: 20px;
+    height:1px;
+    width: 38vw;
+    border: 2px solid #000000;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+.window {
+    width: 40vw; 
+    height: 60vh;
+    background: #f1fffa;
+    border: 2px solid #020000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-54%, -54%);
+  }
+  .tab {
+    background: #dfca58;
+    color: #000000;
+    padding: 20px;
+    height:1px;
+    width:  38vw;
+    border: 2px solid #000000;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  .tab-controls {
+    display: flex;
+  }
+  
+  .close-button,
+  .minimize-button,
+  .fullscreen-button {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    border: 2px solid #1f1d01;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%; 
+    margin: 0 1px;
+    font-weight: bold;
+  }
+  
+  
+  .close-button:hover,
+  .minimize-button:hover,
+  .fullscreen-button:hover {
+    background: #e4d24a;
+  }
+  
+  .close-button {
+    background: #a3a130;
+    color: #070800;
+  }
+  
+  .minimize-button {
+    background: #a3a130;
+    color:#0c0b00;
+    margin: 0 5px;
+  }
+  
+  .fullscreen-button {
+    background: #a3a130;
+    color:#010200;
+  }
+#desktop {
+    height: calc(100% - 26px);
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.desktopIcon {
+    margin: 2px 7px;
+    display: block;
+    height: 68px;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    margin-left:-10px ;
+}
+.icons{
+    margin-top: 30px;
+    margin-left:-10px ;
+    width: 70px;
+    height: 70px;
+    
+}
+.iconss{
+    margin-top: 50px;
+    margin-left:-20px ;
+    width: 90px;
+    height: 100px;
+    
+}
+.chat{
+    width: 200px;
+    height: 240px;
+    margin-left: 1159px;
+    margin-top: 100px;
+    display: flex;
+    padding:110px;
+    padding-left: 60px;
+}
+
+#taskbar {
+    height: 26px;
+    background-color: rgb(192, 192, 192);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-top: ridge 2px white;
+}
+
+.taskbar-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#start {
+    background: url() left center no-repeat;
+    background-size: 17px 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    padding: 1px 2px;
+    margin-right: 2px;
+}
+.startRest {
+    position:relative;
+    border-top: ridge 4px white;
+    border-left: ridge 4px white;
+    border-bottom: ridge 4px black;
+    border-right: ridge 4px black;
+}
+#taskbar-button {
+    font-weight: bold;
+    font-size: 12px;
+    width: 100px;
+    height: 21px;
+    display: inline-block;
+    padding: 0px 0px;
+}
+#startMenu {
+    top: -250px;
+    left: 2px;
+    height: 242px;
+    width: 160px;
+    background-color: rgb(192, 192, 192);
+    position: absolute;
+    display: block;
+    border-top: ridge 3px white;
+    border-left: ridge 3px white;
+    border-bottom: ridge 2px black;
+    border-right: ridge 2px grey;
+}
+
+#startMenu #left {
+    width: 28px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(128, 128, 128);
+    font-family: Arial;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#startMenu #left {
+    width: 28px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(128, 128, 128);
+    font-family: Arial;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+#startMenu .menuItem {
+    color: black;
+    height: 32px;
+    width: 134px;
+    margin-left: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+.tabIcon{
+    position: relative;
+    top:30px;
+    left:20px;
+    width: 70px;
+    height: 20px;
+    margin-left:10px ;
+    padding-right:30px ;
+}
+.tabIcon1{
+    position: relative;
+    top:9px;
+    left:20px;
+    width: 70px;
+    height: 20px;
+    margin-left:110px ;
+    
+}
+
+
+#startMenu .menuItem:hover {
+    background-color: rgb(0, 0, 128);
+    color: white;
+}
+#startMenu .expander:after {
+    content: '▶';
+    float: right;
+    margin-right: 5px;
+}
+
+#startMenu .menuItem:first-letter {
+    text-decoration: underline;
+}
+
+#startMenu #shutdown:first-letter {
+    text-decoration: none;
+}
+
+#startMenu #left .b {
+    color: rgb(192, 192, 192);
+    transform: rotate(-90deg);
+    transform-origin: center left;
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-top: 215px;
+    margin-left: 10px;
+}
+#startMenu #left .num95 {
+    font-weight: 100;
+    color: white;
+}
+/*.startClick {
+    border-top: inset 2px black;
+    border-left: inset 2px black;
+    border-bottom: inset 2px white;
+    border-right: inset 2px white;
+}*/
