@@ -7,15 +7,15 @@ Welcome to the Fun and Nostalgic Games Repository! This is a place where gamers 
 We accept games built using the following simple game development tools:
 
 1. Python with Pygame
-JavaScript with HTML5 Canvas
-Lua with Love2D
-C# with Unity
-Java with LibGDX
-C++ with SFML
-Ruby with Gosu
-Haxe with OpenFL
-Go with Ebiten
-PICO-8's Lua
+2. JavaScript with HTML5 Canvas
+3. Lua with Love2D
+4. C# with Unity
+5. Java with LibGDX
+6. C++ with SFML
+7. Ruby with Gosu
+8. Haxe with OpenFL
+9. Go with Ebiten
+10. PICO-8's Lua
 
 ## Existing Games
 
